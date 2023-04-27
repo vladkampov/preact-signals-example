@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React, { useCallback, useState } from 'react';
+import { Counter } from './CounterWithSignals';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Counter />
+        </div>
+    );
 }
 
 export default App;
+
+
+// React Context
+// ...
+// import {Counter, CounterContext} from './CounterWithContext';
+// ...
+// const [count, setCount] = useState(0);
+//
+// const doMinus = useCallback(() => {
+//     setCount(prev => prev - 1);
+// }, []);
+//
+// const doPlus = useCallback(() => {
+//     setCount(prev => prev + 1);
+// }, []);
+// ...
+// {/*<CounterContext.Provider value={{ count, doMinus, doPlus }}>*/}
+// {/*    <Counter />*/}
+// {/*</CounterContext.Provider>*/}
+
+// Mobx
+// ...
+// import {Counter, CounterStoreContext, CounterStore} from './CounterWithMobx';
+// ...
+// <CounterStoreContext.Provider value={new CounterStore()}>
+//     <Counter />
+// </CounterStoreContext.Provider>

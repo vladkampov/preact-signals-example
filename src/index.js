@@ -6,9 +6,13 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <div className="container">
     <App />
-  </React.StrictMode>
+    <footer className="footer">
+        <p><a href="https://bento.me/kampov"><img src="/me.png" alt="Vlad Kampov" /></a></p>
+        <p><code>Created by <a href="https://bento.me/kampov">Vlad Kampov</a> © 2023</code></p>
+    </footer>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

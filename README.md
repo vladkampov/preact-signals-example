@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Hello there 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Image showing no rerenders console logs](docs/preview.gif "Title")
+
+This is a repo which I used to present the concept and usage of [preact/signals](https://github.com/preactjs/signals#react-integration) during several occasions. The goal is to compare different methods of passing state and recognize how reconcilation alghorythm reacts on that.
+
+Feel free to pull or fork it to play around with the lib yourself! 
+
+More about Signals here: [Introducing Signals](https://preactjs.com/blog/introducing-signals/).
+
+Please consider the view of the React core team on usage of this pattern: [React Issue Comment](https://github.com/facebook/react/issues/26704#issuecomment-1522044060)
+
+More about me: [here](https://bento.me/kampov)
+
+<img src="docs/me.png"  width="50" height="50" style="border-radius:50%" />
+
+## How to work with it
+
+> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
