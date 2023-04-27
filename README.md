@@ -1,6 +1,6 @@
 # Hello there 👋
 
-![Image showing no rerenders console logs](docs/preview.gif "Title")
+![Image showing no rerenders console logs](public/preview.gif "Title")
 
 This is a repo which I used to present the concept and usage of [preact/signals](https://github.com/preactjs/signals#react-integration) during several occasions. The goal is to compare different methods of passing state and recognize how reconcilation alghorythm reacts on that.
 
