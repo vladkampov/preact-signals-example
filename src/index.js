@@ -9,8 +9,9 @@ root.render(
   <div className="container">
     <App />
     <footer className="footer">
-        <p><a href="https://bento.me/kampov"><img src="/me.png" alt="Vlad Kampov" /></a></p>
-        <p><code>Created by <a href="https://bento.me/kampov">Vlad Kampov</a> © 2023</code></p>
+        <h4>Repository is here: <a href="https://github.com/vladkampov/preact-signals-example" target="_blank">preact-signals-example</a></h4>
+        <p><a href="https://bento.me/kampov" target="_blank"><img src="/me.png" alt="Vlad Kampov" /></a></p>
+        <p><code>Created by <a href="https://bento.me/kampov"  target="_blank">Vlad Kampov</a> © 2023</code></p>
     </footer>
   </div>
 );
